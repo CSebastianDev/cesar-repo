@@ -2,3 +2,8 @@ h1 {
     text-align: center;
     color: blue;
     font: 10em sans-serif;
+}
+
+body{
+    background-color: blueviolet;
+}
