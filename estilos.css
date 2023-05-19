@@ -3,7 +3,20 @@ h1 {
     color: blue;
     font: 10em sans-serif;
 }
-
-body{
-    background-color: blueviolet;
-}
+.scroll-container {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  .scroll-wrapper {
+    display: inline-block;
+  }
+  
+  .scroll-wrapper img {
+    display: inline-block;
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Ajusta la altura según tus necesidades */
+    margin-right: 10px; /* Ajusta el margen según tus necesidades */
+  }
+  
